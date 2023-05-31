@@ -4,10 +4,10 @@ Data are provided to the review process for paper Khronos: A Real-Time Indexing 
 
 The data contains the following four datasets:
 
-(1) ASI: Time series data corpus collected from a container scheduling system.
-(2) HI: Time series data corpus collected from a resource scheduling system.
-(3) IG: Time series data corpus collected from an online graph engine.
-(4) TPP: Time series data corpus collected from a search and recommendation platform.
+(1) ASI: Time series data corpus collected from a container scheduling system.  
+(2) HI: Time series data corpus collected from a resource scheduling system.  
+(3) IG: Time series data corpus collected from an online graph engine.  
+(4) TPP: Time series data corpus collected from a search and recommendation platform.  
 
 The demo directory contains three demo segments of the above datasets, while the dataset directory contains the segments for 3 consecutive days.
 
