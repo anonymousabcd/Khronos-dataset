@@ -11,6 +11,6 @@ The data contains the following four datasets:
 
 The demo directory contains three demo segments of each dataset, while the entire directory contains all segments for three consecutive days. As the paper focuses on the index construction process of time series meta, we are providing the meta data of each series in one segment.
 
-The segment is an [ORC](https://github.com/apache/orc) file that can be parsed by an [official tool](https://github.com/apache/orc/blob/main/tools/src/FileContents.cc). Each segment has three columns. The first column is the series key (including one metric and a list of tag key and tag value pairs), while the second and third columns are the start and end timestamps of the corresponding time series, respectively. Note that the data is partially desensitized to preserve privacy.
+The segment is an [ORC](https://github.com/apache/orc) file with ZSTD compression that can be parsed by an [official tool](https://github.com/apache/orc/blob/main/tools/src/FileContents.cc). Each segment has three columns. The first column is the series key (including one metric and a list of tag key and tag value pairs), while the second and third columns are the start and end timestamps of the corresponding time series, respectively. Note that the data is partially desensitized to preserve privacy.
 
 
